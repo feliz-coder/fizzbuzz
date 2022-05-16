@@ -1,7 +1,6 @@
 class Fizzbuzz {
-    print() {
-        const max = 100;
-        for (let i = 1; i <= max; i++) {
+    print(number) {
+        for (let i = 1; i <= number; i++) {
             if (i % 15 === 0) {
                 console.log('FizzBuzz')
             } else if (i % 3 === 0) {
@@ -14,4 +13,4 @@ class Fizzbuzz {
 }
 
 const fizzBuzz = new Fizzbuzz()
-fizzBuzz.print()
+fizzBuzz.print(500)
